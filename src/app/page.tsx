@@ -18,7 +18,7 @@ export default async function Home() {
   return (
     <main>
       <h1 className='font-bold text-4xl sm:text-6xl lg:text-8xl py-20'>Tishka Gallery</h1>
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+      <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6'>
         {images.map((image, index) => (
           <div key={index} className='group relative overflow-hidden rounded-lg shadow-lg'>
             <Image
